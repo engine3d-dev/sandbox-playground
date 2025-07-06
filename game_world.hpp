@@ -1,9 +1,9 @@
 #pragma once
-#include "main_scene.hpp"
+#include "level_scene.hpp"
+#include <core/scene/world.hpp>
 
 class game_world {
 public:
-    game_world();
     game_world(const std::string& p_tag);
 
 private:

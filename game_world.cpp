@@ -1,9 +1,6 @@
 #include "game_world.hpp"
 #include <core/engine_logger.hpp>
-
-game_world::game_world() {
-    console_log_fatal("Instantiate Default game_world!");
-}
+#include <core/system_framework/system_registry.hpp>
 
 game_world::game_world(const std::string& p_tag) {
     // m_main_world = atlas::world_scope(p_tag);

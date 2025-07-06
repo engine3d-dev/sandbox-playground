@@ -6,7 +6,7 @@ build_application(
     SOURCES
     Application.cpp
     game_world.cpp
-    main_scene.cpp
+    level_scene.cpp
 
     PACKAGES
     spdlog
